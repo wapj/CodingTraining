@@ -13,6 +13,14 @@ func toInt(str string) int {
 	return i
 }
 
+/**
+트레이닝1 팁계산기 만들기
+What is the bill? 200
+What is the tip percentage? 15
+The tip is $30
+The total is $230
+ */
+
 func main() {
 	fmt.Print("What is the bill? ")
 	var bill, tipPercent string
